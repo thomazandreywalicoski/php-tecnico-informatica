@@ -1,0 +1,204 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body p {
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.container-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1024px;
+    width: 100%;
+}
+
+.container-cabecalho {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #ececec;
+}
+
+.titulo-lista-cliente {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.barra-pesquisa-clientes-cadastrados {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.barra-pesquisa-clientes-cadastrados input {
+    padding: 8px 15px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 10px 0px 0px 10px;
+    width: 100%;
+}
+
+.barra-pesquisa-clientes-cadastrados button {
+    border: none;
+    padding: 8px 15px;
+    background-color: #0059ff;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.container-cadastrar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+
+.btn-cadastrar {
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #04ff00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.btn-cadastrar p {
+    color: #fff;
+    font-weight: 600;
+}
+
+.resultados_pesquisa_encontrada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.titulo-lista-clientes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.titulo-lista-cliente svg {
+    width: 30px;
+    height: 30px;
+}
+
+.titulo-lista-cliente p {
+    font-size: 20px;
+}
+
+
+.container-lista-logs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #ececec;
+    border-radius: 10px;
+}
+
+.tabela-lista-logs {
+    width: 100%;
+}
+
+.cabecalho-tabela-lista-logs {
+    background-color: #ccc;
+}
+
+.cabecalho-tabela-lista-logs-dado {
+    display: flex;
+    gap: 5px;
+    padding: 8px 10px;
+    align-items: center;
+}
+
+
+
+
+
+.cabecalho-tabela-dado svg {
+    width: 20px;
+    height: 20px;
+}
+
+.dados-clientes {
+    gap: 5px;
+}
+
+.dados-clientes td {
+    padding: 8px 10px;
+    background-color: #fff;
+}
+
+.dados-clientes-centro {
+    text-align: center;
+}
+
+.dados-clientes-inativos {
+    background-color: #ffc5c5;
+}
+
+.dados-clientes-acao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-editar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffbf00;
+    padding: 8px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-deletar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff0000;
+    padding: 8px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-editar-senha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0062ff;
+    padding: 8px;
+    border-radius: 5px;
+    text-decoration: none;
+}
